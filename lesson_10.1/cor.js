@@ -55,6 +55,6 @@ const yandexMoney = new YandexMoney(7000);
 visa.setNext(maestro);
 maestro.setNext(yandexMoney);
 
-visa.pay(7000);
+visa.pay(7001);
 
 visa.show();
