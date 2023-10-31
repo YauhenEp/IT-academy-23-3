@@ -6,14 +6,11 @@ modules.add();
 
 let passwordFieldWithParameter;
 function getElementFromField() {
-
+  return 1;
 }
 
-function isThisArray() {
-
-}
-
+function isThisArray() {}
 
 const str = 'string';
 
-console.log('Hello')
+console.log('Hello');

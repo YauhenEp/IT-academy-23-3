@@ -1,0 +1,19 @@
+{
+  "name": "lesson_12",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.2.0",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.3"
+  }
+}
