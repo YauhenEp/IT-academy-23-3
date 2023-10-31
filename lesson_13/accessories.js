@@ -2,7 +2,7 @@ const Product = require('./product')
 
 class Accessories extends Product {
     constructor(price, brand) {
-        super(productName, price, brand);
+        super(price, brand);
         this.productName = 'accessories';
     }
 }

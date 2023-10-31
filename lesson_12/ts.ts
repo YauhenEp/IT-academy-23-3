@@ -12,7 +12,7 @@ const arr4: any[] = ['add', 12, '14', 'undefined', 'true', true, [], {}];
 
 let bn: bigint = 12312434234234423423n;
 
-enum Car {
+export enum Car {
     Toyota = 'Toyota',
     Nissan = 'Nissan',
     Honda = 'Honda',
