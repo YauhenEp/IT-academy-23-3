@@ -5,7 +5,7 @@ module.exports = {
     diff: true,
     exit: false, // could be expressed as "'no-exit': true"
     extension: ['js', 'cjs', 'mjs'],
-    parallel: 3,
+    parallel: false,
     recursive: false,
     reporter: "mochawesome",
     require: "mochawesome/register",

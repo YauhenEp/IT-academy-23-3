@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "jasmine": "^5.1.0",
+    "jasmine-reporters": "^2.5.2",
+    "jasmine-spec-reporter": "^7.0.0",
+    "karma-jasmine": "^5.1.0",
+    "karma-jasmine-html-reporter": "^2.1.0"
+  }
+}
