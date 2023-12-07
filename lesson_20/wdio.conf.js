@@ -28,6 +28,10 @@ export const config = {
     exclude: [
         // 'path/to/excluded/files'
     ],
+    suites: {
+        regression: ["./e2e/**/*.spec.js"],
+        smoke: []
+    },
     //
     // ============
     // Capabilities

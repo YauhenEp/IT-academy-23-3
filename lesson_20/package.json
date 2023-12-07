@@ -9,9 +9,13 @@
     "@wdio/spec-reporter": "^8.24.2"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.js"
+    "test:dev": "wdio run ./wdio.conf.js --env=dev",
+    "test:qa": "wdio run ./wdio.conf.js --env=qa",
+    "test:uat": "wdio run ./wdio.conf.js --env=uat",
+    "test:prod": "wdio run ./wdio.conf.js --env=prod"
   },
   "dependencies": {
-    "chai": "^4.3.10"
+    "chai": "^4.3.10",
+    "yargs": "^17.7.2"
   }
 }

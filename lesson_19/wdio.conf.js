@@ -30,6 +30,10 @@ export const config = {
     exclude: [
         './test/**/test.e2e.js'
     ],
+
+    // services: [
+    //   'appium'
+    // ],
     //
     // ============
     // Capabilities

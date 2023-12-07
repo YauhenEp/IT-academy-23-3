@@ -9,7 +9,9 @@
     "@wdio/spec-reporter": "^8.24.0"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.js"
+    "wdio": "npm run clean && wdio run ./wdio.conf.js && npm run open-report",
+    "clean": "rimraf \"allure-report\" \"allure-results\"",
+    "open-report": "npx allure generate && npx allure open"
   },
   "dependencies": {
     "allure-commandline": "^2.24.1",

@@ -1,0 +1,6 @@
+{
+  "dev": "https://www.dev.21vek.by/",
+  "qa": "https://www.qa.21vek.by/",
+  "uat": "https://www.uat.21vek.by/",
+  "prod": "https://www.21vek.by/"
+}
