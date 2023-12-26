@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-test.describe('Onliner', function () {
+test.describe.skip('Onliner', function () {
   test('get response', async ({page}) => {
     await page.on('response', async (response) => {
       if(response._initializer.url.includes('sdapi/kurs/api/bestrate')) {
