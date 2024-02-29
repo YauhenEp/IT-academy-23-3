@@ -1,7 +1,7 @@
 const weatherAPI = require('../data/weatherAPIschema.v1.json');
 const { sendHttpRequest } = require('../helpers/sendHTTPrequest')
 
-describe.skip(`API weather tests`, function() {
+describe(`API weather tests`, function() {
     describe(`valid cases`, function () {
         let response;
         beforeAll(async () => {
