@@ -3,7 +3,7 @@ const Validator = require('jsonschema').Validator;
 const validate = new Validator();
 const weatherAPI = require('../data/weatherAPIschema.v1.json')
 
-describe.skip(`API weather tests`, function() {
+describe(`API weather tests`, function() {
     describe(`valid cases`, function () {
         let response;
         beforeAll(async () => {
